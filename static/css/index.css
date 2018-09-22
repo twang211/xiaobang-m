@@ -1,0 +1,58 @@
+.page {
+    background: url("../images/bg.jpeg") no-repeat
+}
+
+.getinfos {
+    margin: 5px auto;
+    width: 95%;
+    padding: 0;
+}
+
+.getinfos li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+}
+
+.getinfos li p {
+    margin: 10px 0;
+}
+
+.checkInfo {
+    width: 15%;
+    float: right;
+    display: none;
+}
+
+.closeBtn {
+    width: 15%;
+    margin: 2% auto;
+}
+
+.errlog {
+    display: none;
+    width: 100%;
+    color: white;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: fixed;
+    bottom: 0;
+    padding: 5%;
+}
+
+table {
+    width: 95%;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 1px solid;
+}
+
+th {
+    width: 50%
+}
