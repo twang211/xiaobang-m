@@ -37,6 +37,7 @@ function getInfos() {
 
                     $(".checkInfo").on("click", function() {
                         $(".errloginfos").empty()
+                        $(".bgdialog").show()
                         $(".errlog").show()
                         var logs = data.troubleList
                         for (var i = 0; i < logs.length; i++) {
@@ -48,9 +49,11 @@ function getInfos() {
                     })
                     $(".closeBtn").on("click", function() {
                         console.log("1111111111")
+                        $(".bgdialog").hide()
                         $(".errlog").hide()
                     })
                 } else {
+                    $(".bgdialog").hide()
                     $(".errlog").hide()
                     $(".troubleList").html("正常")
                     $(".checkInfo").hide()
