@@ -59,6 +59,7 @@ function getInfos() {
                     $(".checkInfo").hide()
                 }
             } else {
+                $.toast(res.resultMsg);
                 console.log(res.resultMsg, "res")
             }
 
