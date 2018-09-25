@@ -42,9 +42,9 @@ function getInfos() {
                         var logs = data.troubleList
                         for (var i = 0; i < logs.length; i++) {
                             var html = ""
-                            html += "<tr><td>" + logs[i].checkReminder + "</td><td>" + timestampToTime(logs[i].createTime) + "</td></tr>"
+                            html += "<tr><td>" + logs[i].checkPoint + "</td><td>" + timestampToTime(logs[i].createTime) + "</td></tr>"
+                            $(".errloginfos").append(html)
                         }
-                        $(".errloginfos").append(html)
 
                     })
                     $(".closeBtn").on("click", function() {
