@@ -1,7 +1,9 @@
 $(function() {
     console.log(getParam("buildingId"))
     console.log(getParam("fireAreaCode"))
-    getInfos()
+    setTimeout(function() {
+        getInfos()
+    }, 1000);
 })
 
 function getInfos() {
