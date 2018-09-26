@@ -67,3 +67,17 @@ td {
 th {
     width: 50%
 }
+
+.loadingImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #4b65a0;
+    z-index: 9999;
+}
+
+.loadingImg img {
+    margin: 50% auto;
+    display: block;
+    width: 20%;
+}

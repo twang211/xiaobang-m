@@ -18,6 +18,7 @@ function getInfos() {
         },
         success: function(res) {
             if (res.resultCode == 0) {
+                $(".loadingImg").hide()
                 var datas = res.resultData
                 var data = datas.apparatusInfo
                 console.log(datas)
