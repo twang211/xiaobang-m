@@ -1,4 +1,4 @@
-var baseUrl = "http://47.92.165.114:8999/fire-service"
+var baseUrl = "http://www.k-drt.com:8999/fire-service"
 
 function getParam(paramName) {
     paramValue = "", isFound = !1;
